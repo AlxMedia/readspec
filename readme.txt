@@ -67,7 +67,19 @@ Screenshot images
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io
 
+Sidebar images
+1. https://stocksnap.io/photo/76X7PJUIMF - CC0 1.0 Universal (CC0 1.0)
+
+Content images
+1. https://stocksnap.io/photo/23H66MTGXA - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/UYYDN7X5IS - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/UEQ0178WUT - CC0 1.0 Universal (CC0 1.0)
+
 == Changelog ==
+
+= 1.4.4 - 2021-05-18 =
+* Added screenshot images to readme
+* Fixed: visible focus state of burger button and mobile menu dropdowns
 
 = 1.4.3 - 2021-03-08 =
 * Removed premium theme updater code
