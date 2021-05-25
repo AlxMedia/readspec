@@ -77,6 +77,9 @@ Content images
 
 == Changelog ==
 
+= 1.4.5 - 2021-05-25 =
+* Fixed compatibility issue with custom nav and various security plugins
+
 = 1.4.4 - 2021-05-18 =
 * Added screenshot images to readme
 * Fixed: visible focus state of burger button and mobile menu dropdowns
