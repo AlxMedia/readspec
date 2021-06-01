@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Readspec\n"
-"POT-Creation-Date: 2021-05-25 13:43+0200\n"
+"POT-Creation-Date: 2021-06-01 16:47+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -483,7 +483,7 @@ msgid ""
 msgstr ""
 
 #: functions/theme-options.php:397 functions/theme-options.php:541
-#: functions/theme-options.php:551 inc/page-title.php:15
+#: functions/theme-options.php:551
 msgid "Archive"
 msgstr ""
 
@@ -627,7 +627,7 @@ msgstr ""
 msgid "Font Awesome icons. Ex: fa-facebook "
 msgstr ""
 
-#: functions/theme-options.php:670 inc/page-title.php:79
+#: functions/theme-options.php:670 inc/page-title.php:65
 msgid "Link"
 msgstr ""
 
@@ -820,85 +820,81 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: inc/page-title.php:9
-msgid "Categories"
-msgstr ""
-
-#: inc/page-title.php:39
+#: inc/page-title.php:25
 msgid "Search result"
 msgstr ""
 
-#: inc/page-title.php:41
+#: inc/page-title.php:27
 msgid "Search results"
 msgstr ""
 
-#: inc/page-title.php:47
+#: inc/page-title.php:33
 msgid "Error 404."
 msgstr ""
 
-#: inc/page-title.php:47
+#: inc/page-title.php:33
 msgid "Page not found!"
 msgstr ""
 
-#: inc/page-title.php:51
+#: inc/page-title.php:37
 msgid "Author:"
 msgstr ""
 
-#: inc/page-title.php:54
+#: inc/page-title.php:40
 msgid "Category:"
 msgstr ""
 
-#: inc/page-title.php:57
+#: inc/page-title.php:43
 msgid "Tagged:"
 msgstr ""
 
-#: inc/page-title.php:60
+#: inc/page-title.php:46
 msgid "Daily Archive:"
 msgstr ""
 
-#: inc/page-title.php:63
+#: inc/page-title.php:49
 msgid "Monthly Archive:"
 msgstr ""
 
-#: inc/page-title.php:66
+#: inc/page-title.php:52
 msgid "Yearly Archive:"
 msgstr ""
 
-#: inc/page-title.php:69 inc/page-title.php:71 inc/page-title.php:73
-#: inc/page-title.php:75 inc/page-title.php:77 inc/page-title.php:79
-#: inc/page-title.php:81 inc/page-title.php:83 inc/page-title.php:85
+#: inc/page-title.php:55 inc/page-title.php:57 inc/page-title.php:59
+#: inc/page-title.php:61 inc/page-title.php:63 inc/page-title.php:65
+#: inc/page-title.php:67 inc/page-title.php:69 inc/page-title.php:71
 msgid "Type:"
 msgstr ""
 
-#: inc/page-title.php:69
+#: inc/page-title.php:55
 msgid "Audio"
 msgstr ""
 
-#: inc/page-title.php:71
+#: inc/page-title.php:57
 msgid "Aside"
 msgstr ""
 
-#: inc/page-title.php:73
+#: inc/page-title.php:59
 msgid "Chat"
 msgstr ""
 
-#: inc/page-title.php:75
+#: inc/page-title.php:61
 msgid "Gallery"
 msgstr ""
 
-#: inc/page-title.php:77
+#: inc/page-title.php:63
 msgid "Image"
 msgstr ""
 
-#: inc/page-title.php:81
+#: inc/page-title.php:67
 msgid "Quote"
 msgstr ""
 
-#: inc/page-title.php:83
+#: inc/page-title.php:69
 msgid "Status"
 msgstr ""
 
-#: inc/page-title.php:85
+#: inc/page-title.php:71
 msgid "Video"
 msgstr ""
 

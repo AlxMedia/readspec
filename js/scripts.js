@@ -88,18 +88,6 @@ jQuery(document).ready(function($) {
 		}
 	});
 
-/*  Dropdown menu animation
-/* ------------------------------------ */
-	$('.dropdown-buttons ul.sub-menu').hide();
-	$('.dropdown-buttons li').hover( 
-		function() {
-			$(this).children('ul.sub-menu').slideDown('fast');
-		}, 
-		function() {
-			$(this).children('ul.sub-menu').hide();
-		}
-	);
-	
 /*  Move footer element
 /* ------------------------------------ */
 	// Optimization: Store the references outside the event handler:

@@ -1,7 +1,7 @@
 /*
 Theme Name: Readspec
 Theme URI: http://alx.media/themes/readspec/
-Version: 1.4.5
+Version: 1.4.6
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.6
@@ -495,17 +495,6 @@ box-shadow: inset 0 1px 1px rgba(0,0,0,0.4), 0 1px 0 rgba(255,255,255,0.03); }
 .page-title .content-inner { padding: 0; } 
 .page-title .pad { padding-top: 25px; padding-bottom: 25px; }
 
-.page-title .dropdown-buttons { float: right; }
-.page-title .dropdown-buttons > li { float: left; margin-left: 30px; position: relative; }
-.page-title .dropdown-buttons li i { margin-right: 0; }
-.page-title .dropdown-buttons > li:hover > a { color: #222; }
-.page-title .dropdown-buttons > li:hover ul { display: block; }
-.page-title .dropdown-buttons > li > ul { display: block; background: #fff; border-bottom: 1px solid #ddd; width: 140px; padding: 10px 20px; position: absolute; z-index: 99; top: 30px; right: 0; }
-.page-title .dropdown-buttons li ul.children { padding-left: 10px; border-top: 1px solid #eee; }
-.page-title .dropdown-buttons ul li { font-size: 15px; border-bottom: 1px solid #eee; }
-.page-title .dropdown-buttons ul li:last-child { border-bottom: 0; }
-.page-title .dropdown-buttons ul li a { padding: 5px 0; display: inline-block; }
-
 /*  common : notebox
 /* ------------------------------------ */
 .notebox { background: #e5e5e5; position: relative; padding: 12px 15px; color: #777; margin-bottom: 30px; }
@@ -651,7 +640,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .nav-menu:not(.mobile) .menu ul:before,
 .nav-menu:not(.mobile) .menu ul:after { content: ""; display: block; position: absolute; bottom: 100%; }
 .nav-menu:not(.mobile) .menu ul:before { left: 0; right: 0; height: 20px; }
-.nav-menu:not(.mobile) .menu ul:after { border: 8px solid transparent; border-bottom-color: transparent; left: 18px; }
+.nav-menu:not(.mobile) .menu ul ul:after { border: 8px solid transparent; border-bottom-color: transparent; left: 18px; }
 .nav-menu:not(.mobile) .menu ul ul { left: calc(100% + 20px); top: -10px !important; }
 .nav-menu:not(.mobile) .menu ul ul:before { bottom: 0; height: auto; left: auto; left: -20px; top: 0; width: 22px; }
 .nav-menu:not(.mobile) .menu ul ul:after { border-bottom-color: transparent; bottom: auto; left: -16px; top: 20px; }

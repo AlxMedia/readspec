@@ -4,20 +4,6 @@
 
 	<?php if ( is_home() ) : ?>
 		<h2><?php echo readspec_blog_title(); ?></h2>
-		<ul class="dropdown-buttons">
-			<li class="categories">
-				<a href="#"><?php esc_html_e('Categories','readspec'); ?><i class="fas fa-angle-down"></i></a>
-				<ul class="sub-menu">	
-					<?php wp_list_categories('orderby=name&title_li=&show_count=1&exclude=10'); ?> 
-				</ul>
-			</li>
-			<li class="archive">
-				<a href="#"><?php esc_html_e('Archive','readspec'); ?><i class="fas fa-angle-down"></i></a>
-				<ul class="sub-menu">
-					<?php wp_get_archives('type=monthly&show_post_count=true'); ?>
-				</ul>
-			</li>
-		</ul>
 		
 	<?php elseif ( is_single() ): ?>
 		<ul class="meta-single group">
