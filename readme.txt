@@ -8,7 +8,7 @@ Tags: blog, one-column, two-columns, three-columns, right-sidebar, left-sidebar,
 
 == Description ==
 
-Readspec is a responsive 100% high resolution theme for personal blogs and magazines. Unique toggle sidebars give a great browsing and reading experience on both tablet and mobile. The feature list is long: Unlimited accent colors, unlimited widget areas, 0-2 sidebars to the left or right that can be uniquely specified for each page or post, 300px / 220px fixed width sidebars, 0-4 footer widget columns, almost zero layout images, related posts and post nav, 10 post formats, good SEO, 2 flexible custom widgets, localisation support, social links, logo upload and many more useful admin panel features.
+Readspec is a theme for personal blogs and magazines. Unique toggle sidebars give a great browsing and reading experience on both tablet and mobile. Demo: http://demo.alx.media/x/?theme=Readspec
 
 == Installation ==
 
@@ -76,6 +76,9 @@ Content images
 3. https://stocksnap.io/photo/UEQ0178WUT - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.4.7 - 2021-06-01 =
+* Updated theme description
 
 = 1.4.6 - 2021-06-01 =
 * Removed dropdowns for categories and archives in subheader
