@@ -48,10 +48,10 @@ Copyright (c) Accademia di Belle Arti di Urbino
 License: SIL OFL 1.1
 Source: http://www.campivisivi.net/titillium/
 
-Flexslider
-Copyright (c) WooThemes
-License: GPLv2 or later
-Source: http://flexslider.woothemes.com/
+Slick Carousel
+Copyright (c) Ken Wheeler
+License: MIT
+Source: http://kenwheeler.github.io/slick/
 
 FitVids
 Copyright (c) Chris Coyier
@@ -76,6 +76,9 @@ Content images
 3. https://stocksnap.io/photo/UEQ0178WUT - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.4.8 - 2021-06-02 =
+* Changed flexslider to slick carousel
 
 = 1.4.7 - 2021-06-01 =
 * Updated theme description

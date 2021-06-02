@@ -119,6 +119,30 @@ jQuery(document).ready(function($) {
 		
 	responsiveVideo();
 
+/*  Slick featured
+/* ------------------------------------ */
+	$('.slick-featured').slick({
+		dots: true,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 1,
+		appendArrows: '.slick-featured-nav',
+		appendDots: '.slick-featured-dots',
+		adaptiveHeight: true
+	});
+	
+/*  Slick image slides
+/* ------------------------------------ */
+	$('.slick-slides').slick({
+		dots: true,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 1,
+		appendArrows: '.slick-slides-nav',
+		appendDots: '.slick-slides-dots',
+		adaptiveHeight: true
+	});	
+
 /*  Trap focus
 /* ------------------------------------ */	
 	// add all the elements inside modal which you want to make focusable

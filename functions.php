@@ -192,7 +192,7 @@ add_action( 'widgets_init', 'readspec_sidebars' );
 if ( ! function_exists( 'readspec_scripts' ) ) {
 	
 	function readspec_scripts() {
-		wp_enqueue_script( 'readspec-flexslider', get_template_directory_uri() . '/js/jquery.flexslider.min.js', array( 'jquery' ),'', false );
+		wp_enqueue_script( 'readspec-slick', get_template_directory_uri() . '/js/slick.min.js', array( 'jquery' ),'', false );
 		wp_enqueue_script( 'readspec-fitvids', get_template_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ),'', true );
 		wp_enqueue_script( 'readspec-scripts', get_template_directory_uri() . '/js/scripts.js', array( 'jquery' ),'', true );
 		if ( is_singular() && get_option( 'thread_comments' ) )	{ wp_enqueue_script( 'comment-reply' ); }
