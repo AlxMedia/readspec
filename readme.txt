@@ -79,6 +79,7 @@ Content images
 
 = 1.4.8 - 2021-06-02 =
 * Changed flexslider to slick carousel
+* Added header search focus style
 
 = 1.4.7 - 2021-06-01 =
 * Updated theme description

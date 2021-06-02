@@ -228,6 +228,7 @@ input, textarea, button, select, label { font-family: inherit; }
 /*  base : entry
 /* ------------------------------------ */
 .entry { font-size: 18px; line-height: 1.6em; }
+.entry a { text-decoration: underline; }
 .entry p,
 .entry dd { margin-bottom: 1em; }
 .entry dt { color: #222; }
@@ -569,6 +570,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .toggle-search.active #svg-search { display: none; }
 .toggle-search.active #svg-close { display: block; fill: rgba(255,255,255,0.6); }
 .toggle-search:focus #svg-close { fill: #fff; }
+.toggle-search:focus #svg-search { fill: rgba(255,255,255,0.7); }
 
 
 /* ------------------------------------------------------------------------- *
