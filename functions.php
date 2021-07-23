@@ -66,6 +66,9 @@ if ( ! function_exists( 'readspec_setup' ) ) {
 		// Declare WooCommerce support
 		add_theme_support( 'woocommerce' );
 		
+		// Disable support for widgets block editor
+		remove_theme_support( 'widgets-block-editor' );
+		
 		// Thumbnail sizes
 		add_image_size( 'readspec-small', 200, 200, true );
 		add_image_size( 'readspec-medium', 520, 292, true );
