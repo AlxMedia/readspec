@@ -8,7 +8,7 @@ Tags: blog, news, entertainment, one-column, two-columns, three-columns, right-s
 
 == Description ==
 
-Readspec is a theme for personal blogs and magazines. Unique toggle sidebars give a great browsing and reading experience on both tablet and mobile. Demo: http://demo.alx.media/x/?theme=Readspec
+Readspec is a theme for personal blogs and magazines. Unique toggle sidebars give a great browsing and reading experience on both tablet and mobile. Demo: https://demo.agnarson.com/?theme=Readspec
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Readspec is a theme for personal blogs and magazines. Unique toggle sidebars giv
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
