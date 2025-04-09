@@ -731,3 +731,16 @@ function readspec_skip_link_focus_fix() {
 /* ------------------------------------ */
 add_filter('wp_lazy_loading_enabled', '__return_false');
 add_action( 'wp_print_footer_scripts', 'readspec_skip_link_focus_fix' );
+
+
+/*  Kirki deprecated fix
+/* ------------------------------------ */
+function readspec_kirki_config( $config ) {
+
+	if ( isset( $config['compiler'] ) ) {
+		unset( $config['compiler'] );
+	}
+
+	return $config;
+}
+add_filter( 'kirki/config', 'readspec_kirki_config', 999 );
